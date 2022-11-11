@@ -32,6 +32,36 @@
   border-bottom-left-radius: 0px;
   width: 200px;
 }
-img{
+img {
   object-fit: contain;
+}
+
+.display {
+  cursor: pointer;
+  border: 1px solid lightgray;
+  width: 340px;
+  height: 400px;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+}
+.display:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.78);
+  -webkit-transform: scale(0.78);
+  -moz-transform: scale(0.78);
+  -ms-transform: scale(0.78);
+  -o-transform: scale(0.78);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.houses {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
