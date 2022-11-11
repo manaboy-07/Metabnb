@@ -65,3 +65,10 @@ img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+.img-collage > img {
+  transform: scale(0.89);
+  -webkit-transform: scale(0.89);
+  -moz-transform: scale(0.89);
+  -ms-transform: scale(0.89);
+  -o-transform: scale(0.89);
+}
