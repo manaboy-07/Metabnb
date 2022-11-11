@@ -32,3 +32,6 @@
   border-bottom-left-radius: 0px;
   width: 200px;
 }
+img{
+  object-fit: contain;
+}
