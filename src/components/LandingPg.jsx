@@ -2,6 +2,7 @@
 
 import React from "react";
 import LandingImg from "../images/landingImg.svg";
+import Display from "./Display";
 import LogoAds from "./LogoAds";
 function LandingPg() {
   return (
@@ -37,8 +38,9 @@ function LandingPg() {
           <img src={LandingImg} alt='' />
         </div>
       </section>
-      
+
       <LogoAds />
+      <Display />
     </div>
   );
 }

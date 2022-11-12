@@ -5,17 +5,25 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Place from "./components/Place";
 import Display from "./components/Display";
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 
 function App() {
   return (
     <div className='App'>
-      <Navbar />
-      <Place />
-      {/* <LandingPg />
-      <Display /> */}
-      <Footer />
+      <Router>
+        <Navbar />
+
+        <Routes>
+       
+          <Route path="/" element={ <LandingPg />} />
+          <Route path='/place' element={<Place />} />
+        </Routes>
+
+        
+
+        <Footer />
+      </Router>
     </div>
   );
 }
