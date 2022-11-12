@@ -72,3 +72,9 @@ img {
   -ms-transform: scale(0.89);
   -o-transform: scale(0.89);
 }
+.btn-location{
+  border: 1px solid lightgray;
+}
+ul li {
+  cursor: pointer;
+}
