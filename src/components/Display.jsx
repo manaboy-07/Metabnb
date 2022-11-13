@@ -25,18 +25,18 @@ function Display() {
 
       <section>
         <div className='houses '>
-          <div className='row1'>
+         
             <DisplayProps src={Img1} />
             <DisplayProps src={Img2} />
             <DisplayProps src={Img3} />
             <DisplayProps src={Img4} />
-          </div>
-          <div className='row2'>
+         
+         
             <DisplayProps src={Img5} />
             <DisplayProps src={Img6} />
             <DisplayProps src={Img7} />
             <DisplayProps src={Img8} />
-          </div>
+          
         </div>
         <Nfts />
       </section>

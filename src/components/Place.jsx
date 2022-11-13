@@ -41,30 +41,30 @@ function Place() {
       </section>
       <section>
         <div className='houses '>
-          <div className='row1'>
+          
             <DisplayProps src={Img1} />
             <DisplayProps src={Img2} />
             <DisplayProps src={Img3} />
             <DisplayProps src={Img4} />
-          </div>
-          <div className='row2'>
+          
+        
             <DisplayProps src={Img5} />
             <DisplayProps src={Img6} />
             <DisplayProps src={Img7} />
             <DisplayProps src={Img8} />
-          </div>
-          <div className='row1'>
+          
+          
             <DisplayProps src={Img9} />
             <DisplayProps src={Img10} />
             <DisplayProps src={Img11} />
             <DisplayProps src={Img12} />
-          </div>
-          <div className='row2'>
+         
+          
             <DisplayProps src={Img13} />
             <DisplayProps src={Img14} />
             <DisplayProps src={Img15} />
             <DisplayProps src={Img1} />
-          </div>
+         
         </div>
       </section>
     </div>
