@@ -32,12 +32,12 @@ function Place() {
           <li className='mx-9'>Off-grid</li>
           <li className='mx-9'>Farm</li>
         </ul>
-        <button className='flex p-3 items-center justify-between rounded-md btn-location'>
+        <div className='flex p-3 items-center justify-between rounded-md btn-location'>
           <h2>Location</h2>
           <div className='ml-3 '>
             <img src={Setting} alt='' />
           </div>
-        </button>
+        </div>
       </section>
       <section>
         <div className='houses '>
