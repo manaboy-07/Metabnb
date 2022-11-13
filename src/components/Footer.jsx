@@ -9,13 +9,13 @@ function Footer() {
   const date = new Date();
   const year = date.getFullYear();
   return (
-    <section className='px-10 py-12 bg-secondary text-white flex flex-col items-center justify-between md:flex-row md:items-start'>
+    <section className='px-10 py-12 bg-secondary text-white flex flex-col  justify-between md:flex-row md:items-start'>
       <div className='mt-4  '>
         <img src={FooterLogo} alt='' />
-        <div className='icons mt-8 flex justify-between items-center'>
-          <FaFacebookF />
-          <AiOutlineInstagram />
-          <FaTwitter />
+        <div className='icons mt-8 flex items-center'>
+          <FaFacebookF className='mx-4' />
+          <AiOutlineInstagram className='mx-4' />
+          <FaTwitter className='mx-4' />
         </div>
         <div className='copyright mt-8'>
           <h2>&copy; {year} Metabnb</h2>

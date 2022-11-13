@@ -151,7 +151,7 @@ ul li {
 @media only screen and (max-width: 900px) {
   .houses {
     display: flex;
-    margin-left: 70px;
+    margin-left: 40px;
     flex-direction: column;
   }
   .search input {
@@ -166,5 +166,12 @@ ul li {
     -moz-transform: scale(0.9);
     -ms-transform: scale(0.9);
     -o-transform: scale(0.9);
+  }
+  .places-tags {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
   }
 }

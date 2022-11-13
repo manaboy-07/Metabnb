@@ -21,50 +21,45 @@ import Img15 from "../images/img15.svg";
 function Place() {
   return (
     <div>
-      <section className='p-12 mr-4  flex items-start justify-center overflow-x-scroll '>
-        <ul className='flex p-2'>
-          <li className='mx-9'>Restaurant</li>
-          <li className='mx-9'>Cottage</li>
-          <li className='mx-9'>Castle</li>
-          <li className='mx-9'>fantast city</li>
-          <li className='mx-9'>beach</li>
-          <li className='mx-9'>Cabins</li>
-          <li className='mx-9'>Off-grid</li>
-          <li className='mx-9'>Farm</li>
+      <section className='p-4 mr-4 overflow-x-scroll flex items-start justify-center md:overflow-x-hidden md:p-12'>
+        <ul className='flex p-2 places-tags'>
+          <li className='mx-3 lg:mx-9'>Restaurant</li>
+          <li className='mx-3 lg:mx-9'>Cottage</li>
+          <li className='mx-3 lg:mx-9'>Castle</li>
+          <li className='mx-3 lg:mx-9'>fantast city</li>
+          <li className='mx-3 lg:mx-9'>beach</li>
+          <li className='mx-3 lg:mx-9'>Cabins</li>
+          <li className='mx-3 lg:mx-9'>Off-grid</li>
+          <li className='mx-3 lg:mx-9'>Farm</li>
         </ul>
         <div className='flex p-3 items-center justify-between rounded-md btn-location'>
           <h2>Location</h2>
-          <div className='ml-3 '>
+          <div className='ml-2 '>
             <img src={Setting} alt='' />
           </div>
         </div>
       </section>
       <section>
         <div className='houses '>
-          
-            <DisplayProps src={Img1} />
-            <DisplayProps src={Img2} />
-            <DisplayProps src={Img3} />
-            <DisplayProps src={Img4} />
-          
-        
-            <DisplayProps src={Img5} />
-            <DisplayProps src={Img6} />
-            <DisplayProps src={Img7} />
-            <DisplayProps src={Img8} />
-          
-          
-            <DisplayProps src={Img9} />
-            <DisplayProps src={Img10} />
-            <DisplayProps src={Img11} />
-            <DisplayProps src={Img12} />
-         
-          
-            <DisplayProps src={Img13} />
-            <DisplayProps src={Img14} />
-            <DisplayProps src={Img15} />
-            <DisplayProps src={Img1} />
-         
+          <DisplayProps src={Img1} />
+          <DisplayProps src={Img2} />
+          <DisplayProps src={Img3} />
+          <DisplayProps src={Img4} />
+
+          <DisplayProps src={Img5} />
+          <DisplayProps src={Img6} />
+          <DisplayProps src={Img7} />
+          <DisplayProps src={Img8} />
+
+          <DisplayProps src={Img9} />
+          <DisplayProps src={Img10} />
+          <DisplayProps src={Img11} />
+          <DisplayProps src={Img12} />
+
+          <DisplayProps src={Img13} />
+          <DisplayProps src={Img14} />
+          <DisplayProps src={Img15} />
+          <DisplayProps src={Img1} />
         </div>
       </section>
     </div>
