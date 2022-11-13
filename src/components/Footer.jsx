@@ -2,8 +2,8 @@
 
 import React from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
-import { BsFacebook } from "react-icons/bs";
-import { FaTwitter } from "react-icons/fa";
+
+import { FaTwitter, FaFacebookF } from "react-icons/fa";
 import FooterLogo from "../images/footL.svg";
 function Footer() {
   const date = new Date();
@@ -13,7 +13,7 @@ function Footer() {
       <div className='mt-4  '>
         <img src={FooterLogo} alt='' />
         <div className='icons mt-8 flex justify-between items-center'>
-          <BsFacebook />
+          <FaFacebookF />
           <AiOutlineInstagram />
           <FaTwitter />
         </div>

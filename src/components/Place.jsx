@@ -21,7 +21,7 @@ import Img15 from "../images/img15.svg";
 function Place() {
   return (
     <div>
-      <section className='p-10 mr-6 flex items-start justify-center'>
+      <section className='p-12 mr-4  flex items-start justify-center overflow-x-scroll '>
         <ul className='flex p-2'>
           <li className='mx-9'>Restaurant</li>
           <li className='mx-9'>Cottage</li>
@@ -34,29 +34,37 @@ function Place() {
         </ul>
         <button className='flex p-3 items-center justify-between rounded-md btn-location'>
           <h2>Location</h2>
-          <div className='ml-6'>
+          <div className='ml-3 '>
             <img src={Setting} alt='' />
           </div>
         </button>
       </section>
       <section>
         <div className='houses '>
-          <DisplayProps src={Img1} />
-          <DisplayProps src={Img2} />
-          <DisplayProps src={Img3} />
-          <DisplayProps src={Img4} />
-          <DisplayProps src={Img5} />
-          <DisplayProps src={Img6} />
-          <DisplayProps src={Img7} />
-          <DisplayProps src={Img8} />
-          <DisplayProps src={Img9} />
-          <DisplayProps src={Img10} />
-          <DisplayProps src={Img11} />
-          <DisplayProps src={Img12} />
-          <DisplayProps src={Img13} />
-          <DisplayProps src={Img14} />
-          <DisplayProps src={Img15} />
-          <DisplayProps src={Img1} />
+          <div className='row1'>
+            <DisplayProps src={Img1} />
+            <DisplayProps src={Img2} />
+            <DisplayProps src={Img3} />
+            <DisplayProps src={Img4} />
+          </div>
+          <div className='row2'>
+            <DisplayProps src={Img5} />
+            <DisplayProps src={Img6} />
+            <DisplayProps src={Img7} />
+            <DisplayProps src={Img8} />
+          </div>
+          <div className='row1'>
+            <DisplayProps src={Img9} />
+            <DisplayProps src={Img10} />
+            <DisplayProps src={Img11} />
+            <DisplayProps src={Img12} />
+          </div>
+          <div className='row2'>
+            <DisplayProps src={Img13} />
+            <DisplayProps src={Img14} />
+            <DisplayProps src={Img15} />
+            <DisplayProps src={Img1} />
+          </div>
         </div>
       </section>
     </div>
