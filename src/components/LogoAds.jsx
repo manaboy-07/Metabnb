@@ -5,6 +5,7 @@ import LogoAdsProps from "./LogoAdsProps";
 import OpenSea from "../images/opensea.svg";
 import Metamask from "../images/metaMsk.svg";
 import MbToken from "../images/mbToken.svg";
+
 function LogoAds() {
   return (
     <div className='flex flex-col justify-between items-center mt-4 p-2 bg-primary lg:flex-row'>
