@@ -5,7 +5,7 @@ import Star from "../images/star.png";
 function DisplayProps({ src }) {
   return (
     <div className='display flex-col justify-center items-center rounded-lg p-4 mt-4'>
-      <img src={src} alt='' className='ml-5' />
+      <img src={src} alt='' className='ml-5 display-img' />
       <div className='img-name flex mt-3 justify-between text-sm'>
         <h3>Desert King</h3>
         <h3>1MBT per night</h3>

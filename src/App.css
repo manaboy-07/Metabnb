@@ -154,6 +154,9 @@ ul li {
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
 }
+.display-img{
+  max-width: 300px;
+}
 @media only screen and (max-width: 900px) {
   .search input {
     width: 75%;
