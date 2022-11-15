@@ -136,16 +136,16 @@ ul li {
   -o-transform: translateX(800px);
 }
 .side-menu.show {
-  transform: translateX(25px);
+  transform: translateX(15px);
   transition: all 1.3s ease;
   -webkit-transition: all 1.3s ease;
   -moz-transition: all 1.3s ease;
   -ms-transition: all 1.3s ease;
   -o-transition: all 1.3s ease;
-  -webkit-transform: translateX(25px);
-  -moz-transform: translateX(25px);
-  -ms-transform: translateX(25px);
-  -o-transform: translateX(25px);
+  -webkit-transform: translateX(15px);
+  -moz-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  -o-transform: translateX(15px);
 }
 .adjust {
   transform: rotate(90deg);

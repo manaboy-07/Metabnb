@@ -4,7 +4,7 @@ import React from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
 
 import { FaTwitter, FaFacebookF } from "react-icons/fa";
-import FooterLogo from "../images/footL.svg";
+import FooterLogo from "../images/footL.png";
 function Footer() {
   const date = new Date();
   const year = date.getFullYear();

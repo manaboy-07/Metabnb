@@ -2,9 +2,9 @@
 
 import React from "react";
 import LogoAdsProps from "./LogoAdsProps";
-import OpenSea from "../images/opensea.svg";
-import Metamask from "../images/metaMsk.svg";
-import MbToken from "../images/mbtoken.svg";
+import OpenSea from "../images/opensea.png";
+import Metamask from "../images/metaMsk.png";
+import MbToken from "../images/mbtoken.png";
 
 function LogoAds() {
   return (

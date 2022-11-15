@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import Star from "../images/star.svg";
+import Star from "../images/star.png";
 function DisplayProps({ src }) {
   return (
     <div className='display flex-col justify-center items-center rounded-lg p-4 mt-4'>

@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import Logo from "../images/logo.svg";
+import Logo from "../images/logo.png";
 import { Link } from "react-router-dom";
 import Modal from "./Modal";
 import { HiMenuAlt3, HiOutlineX } from "react-icons/hi";

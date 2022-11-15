@@ -1,8 +1,8 @@
 /** @format */
 
 import React from "react";
-import Fox from "../images/fox.svg";
-import Wallet from "../images/wallet.svg";
+import Fox from "../images/fox.png";
+import Wallet from "../images/wallet.png";
 import { BsChevronRight } from "react-icons/bs";
 import { HiOutlineX } from "react-icons/hi";
 function Modal({ open, close }) {

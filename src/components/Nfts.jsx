@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import Frame from "../images/Frame.svg";
+import Frame from "../images/Frame.png";
 function Nfts() {
   return (
     <section className='p-8 bg-primary flex flex-col-reverse   items-center justify-around lg:flex-row'>

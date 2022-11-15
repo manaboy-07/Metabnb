@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import LandingImg from "../images/landingImg.svg";
+import LandingImg from "../images/landingImg.png";
 import Display from "./Display";
 import LogoAds from "./LogoAds";
 function LandingPg() {
