@@ -1,7 +1,8 @@
 /** @format */
 
 import React from "react";
-import Setting from "../images/setting-5.svg";
+
+import { HiAdjustments } from "react-icons/hi";
 import Img1 from "../images/img1.svg";
 import Img2 from "../images/img2.svg";
 import Img3 from "../images/img3.svg";
@@ -21,26 +22,27 @@ import Img15 from "../images/img15.svg";
 function Place() {
   return (
     <div>
-      <section className='p-4 mr-4 overflow-x-scroll flex items-start justify-center md:overflow-x-hidden md:p-12'>
-        <ul className='flex p-2 places-tags'>
-          <li className='mx-3 lg:mx-9'>Restaurant</li>
-          <li className='mx-3 lg:mx-9'>Cottage</li>
-          <li className='mx-3 lg:mx-9'>Castle</li>
-          <li className='mx-3 lg:mx-9'>fantast city</li>
-          <li className='mx-3 lg:mx-9'>beach</li>
-          <li className='mx-3 lg:mx-9'>Cabins</li>
-          <li className='mx-3 lg:mx-9'>Off-grid</li>
-          <li className='mx-3 lg:mx-9'>Farm</li>
-        </ul>
-        <div className='flex p-3 items-center justify-between rounded-md btn-location'>
-          <h2>Location</h2>
-          <div className='ml-2 '>
-            <img src={Setting} alt='' />
+      <div className='overflow-x-scroll flex items-center md:overflow-x-hidden md:p-12'>
+        <section className='p-2 w-fit   flex items-start justify-center '>
+          <ul className='flex p-2 places-tags'>
+            <li className='mx-3 lg:mx-9'>Restaurant</li>
+            <li className='mx-3 lg:mx-9'>Cottage</li>
+            <li className='mx-3 lg:mx-9'>Castle</li>
+            <li className='mx-3 lg:mx-9'>fantast city</li>
+            <li className='mx-3 lg:mx-9'>beach</li>
+            <li className='mx-3 lg:mx-9'>Cabins</li>
+            <li className='mx-3 lg:mx-9'>Off-grid</li>
+            <li className='mx-3 lg:mx-9'>Farm</li>
+          </ul>
+          <div className='flex p-3 items-center justify-between rounded-md btn-location'>
+            <h2>Location</h2>
+            <HiAdjustments className='adjust ml-2 text-xl ' />
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
+
       <section>
-        <div className='houses '>
+        <div className=' place-items-center grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4  '>
           <DisplayProps src={Img1} />
           <DisplayProps src={Img2} />
           <DisplayProps src={Img3} />

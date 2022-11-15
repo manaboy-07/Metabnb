@@ -24,19 +24,16 @@ function Display() {
       </div>
 
       <section>
-        <div className='houses '>
-         
-            <DisplayProps src={Img1} />
-            <DisplayProps src={Img2} />
-            <DisplayProps src={Img3} />
-            <DisplayProps src={Img4} />
-         
-         
-            <DisplayProps src={Img5} />
-            <DisplayProps src={Img6} />
-            <DisplayProps src={Img7} />
-            <DisplayProps src={Img8} />
-          
+        <div className='place-items-center grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4  '>
+          <DisplayProps src={Img1} />
+          <DisplayProps src={Img2} />
+          <DisplayProps src={Img3} />
+          <DisplayProps src={Img4} />
+
+          <DisplayProps src={Img5} />
+          <DisplayProps src={Img6} />
+          <DisplayProps src={Img7} />
+          <DisplayProps src={Img8} />
         </div>
         <Nfts />
       </section>

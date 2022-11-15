@@ -62,11 +62,6 @@ img {
   -o-transition: all 0.3s ease-in-out;
 }
 
-.houses {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-
 .img-collage > img {
   transform: scale(0.89);
   -webkit-transform: scale(0.89);
@@ -110,10 +105,15 @@ ul li {
 }
 .menu {
   position: absolute;
-  z-index: 9999;
+
   right: 20px;
   object-fit: contain;
   cursor: pointer;
+}
+.menu-x {
+  left: 0;
+  top: 0;
+  position: absolute;
 }
 .side-menu {
   background-color: rgb(236, 232, 240);
@@ -136,24 +136,25 @@ ul li {
   -o-transform: translateX(800px);
 }
 .side-menu.show {
-  transform: translateX(40px);
+  transform: translateX(25px);
   transition: all 1.3s ease;
   -webkit-transition: all 1.3s ease;
   -moz-transition: all 1.3s ease;
   -ms-transition: all 1.3s ease;
   -o-transition: all 1.3s ease;
-  -webkit-transform: translateX(40px);
-  -moz-transform: translateX(40px);
-  -ms-transform: translateX(40px);
-  -o-transform: translateX(40px);
+  -webkit-transform: translateX(25px);
+  -moz-transform: translateX(25px);
+  -ms-transform: translateX(25px);
+  -o-transform: translateX(25px);
 }
-
+.adjust {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
 @media only screen and (max-width: 900px) {
-  .houses {
-    display: flex;
-    margin-left: 40px;
-    flex-direction: column;
-  }
   .search input {
     width: 75%;
   }

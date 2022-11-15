@@ -48,22 +48,22 @@ function Navbar() {
           <div>
             <img src={Logo} alt='' className='logo' />
           </div>
-          {showNav ? (
-            <HiOutlineX
-              onClick={toggleMenu}
-              className='menu text-3xl text-primary'
-            />
-          ) : (
-            <HiMenuAlt3
-              onClick={toggleMenu}
-              className='menu text-3xl text-primary'
-            />
-          )}
+          <HiMenuAlt3
+            onClick={toggleMenu}
+            className='menu text-3xl text-primary'
+          />
+
           <div>
             <ul
-              className={`flex flex-col mt-7 p-5 side-menu ${
+              className={`flex flex-col  p-5 side-menu ${
                 showNav ? "show" : "hide"
               }`}>
+              <li>
+                <HiOutlineX
+                  onClick={toggleMenu}
+                  className='menu-x text-3xl text-primary'
+                />
+              </li>
               <li className='mx-3 my-2' onClick={toggleMenu}>
                 <Link to='/'>Home</Link>{" "}
               </li>
